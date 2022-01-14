@@ -26,7 +26,7 @@ def process_numbers(numbers: str) -> str:
     """
     numbers = numbers.replace('1', 'uno')
     numbers = numbers.replace('2', 'two')
-    result = numbers.replace('3','')
+    result = numbers.replace('3', '')
     return result
 
 
